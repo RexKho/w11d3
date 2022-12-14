@@ -14,7 +14,7 @@ function CoffeeProvider(props) {
   };
 
   return (
-    <CoffeeContext.Provider value={{coffeeBean,setCoffeeBeanId}}>
+    <CoffeeContext.Provider value={{coffeeBean, setCoffeeBeanId}}>
       {props.children}
     </CoffeeContext.Provider>
   );

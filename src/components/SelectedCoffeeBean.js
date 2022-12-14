@@ -2,9 +2,9 @@ import { useCoffeeContext } from "../context/CoffeeContext";
 
 const SelectedCoffeeBean = () => {
   const { coffeeBean } = useCoffeeContext();
-  
+
   return (
-    <div class="selected-coffee">
+    <div className="selected-coffee">
       <h2>
         {coffeeBean.name}
       </h2>
